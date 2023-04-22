@@ -1,0 +1,49 @@
+/* static/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.flash-messages {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffc107;
+  list-style-type: none;
+}
+
+.notes-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notes-list li {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.notes-list li h2 {
+  margin-top: 0;
+}
+
+.notes-list li p {
+  margin-bottom: 0;
+}
+
+.notes-list li a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.notes-list li a:hover {
+  background-color: #0069d9;
+}
